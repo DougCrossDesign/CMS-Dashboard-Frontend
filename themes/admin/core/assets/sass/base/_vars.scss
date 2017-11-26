@@ -1,0 +1,55 @@
+
+/* Size Zones */
+$desktop-full:1330px;
+$desktop-sm:1200px;
+$tablet: 1000px;
+$mobile: 650px;
+
+/*--- COLORS ---*/
+$colors_text: #4e4e4e;
+$gray-med: #646464;
+$colorhdr: #242424;
+
+$dark-gray: #282828;
+
+
+$highlight:#8dc63f;
+$accent-red: #FB2043;
+$gradient-red: #D31B3A;
+
+$green: #43C161;
+$dark-green: #3CAD56;
+$dark_blue: #126FF5;
+$light_blue: #89D2DC;
+$light_grey: #DEE5E5;
+$gray: #282828;
+
+$lato: 'Lato', sans-serif;
+
+/*--- FONTS ---*/
+
+@mixin font1(){
+	font-weight: normal;
+	font-family:"open_sansregular", Helvetica, Arial, sans-serif;
+}
+@mixin font1-bold(){
+	font-weight: normal;
+	font-family:"open_sansregular", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+@mixin font2() {
+	font-weight: normal;
+	font-family:"montserratregular", Helvetica, Arial, sans-serif;
+}
+@mixin font2-bold() {
+	font-weight: normal;
+	font-family:"montserratbold", Helvetica, Arial, sans-serif;
+}
+@mixin font3() {
+	font-weight: normal;
+	font-family:"antoniolight", Helvetica, Arial, sans-serif;
+}
+@mixin font3-bold(){
+	font-weight: normal;
+	font-family:"antoniobold", Helvetica, Arial, sans-serif;
+}
