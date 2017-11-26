@@ -1,6 +1,8 @@
 # CMS Dashboard Frontend
 ----
+Wireframe : Contains PDF documents of thought out concepts for additional pages, modules and mobile layout.
 
+----
 This site uses grunt for minification and concatenation
 
 ###Install Node Modules After Downloading
